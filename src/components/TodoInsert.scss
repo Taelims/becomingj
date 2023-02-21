@@ -1,6 +1,6 @@
 .TodoInsert{
   display: flex;
-  background-color: #46684b;
+  background-color: rgba(255, 255, 255, 0.384);
 
   input{
     background: none;
@@ -9,18 +9,10 @@
     padding: 0.5rem;
     font-size: 1.125rem;
     line-height: 1.5;
-    color: white;
+    color: black;
     &::placeholder{
-      color: #edf0f3;
+      color: black;
     }
     flex: 1;
-  }
-  button{
-    padding-left: 1rem;
-    padding-right: 1rem;
-    display: flex;
-    align-items: center;
-    cursor: pointer;
-    background: white;
   }
 }
